@@ -1,0 +1,326 @@
+{
+  "source": "https://github.com/l2yao/iching.js/blob/166afa64800651f7fc5eedab5d2547c3a289102f/iching.js",
+  "method": "Independent trigram/Unicode matrix; Unicode code point gives King Wen number. Facts transcribed for structural comparison, no library code executed.",
+  "rows": [
+    {
+      "id": 1,
+      "lower": "乾",
+      "upper": "乾"
+    },
+    {
+      "id": 34,
+      "lower": "乾",
+      "upper": "震"
+    },
+    {
+      "id": 5,
+      "lower": "乾",
+      "upper": "坎"
+    },
+    {
+      "id": 26,
+      "lower": "乾",
+      "upper": "艮"
+    },
+    {
+      "id": 11,
+      "lower": "乾",
+      "upper": "坤"
+    },
+    {
+      "id": 9,
+      "lower": "乾",
+      "upper": "巽"
+    },
+    {
+      "id": 14,
+      "lower": "乾",
+      "upper": "离"
+    },
+    {
+      "id": 43,
+      "lower": "乾",
+      "upper": "兑"
+    },
+    {
+      "id": 25,
+      "lower": "震",
+      "upper": "乾"
+    },
+    {
+      "id": 51,
+      "lower": "震",
+      "upper": "震"
+    },
+    {
+      "id": 3,
+      "lower": "震",
+      "upper": "坎"
+    },
+    {
+      "id": 27,
+      "lower": "震",
+      "upper": "艮"
+    },
+    {
+      "id": 24,
+      "lower": "震",
+      "upper": "坤"
+    },
+    {
+      "id": 42,
+      "lower": "震",
+      "upper": "巽"
+    },
+    {
+      "id": 21,
+      "lower": "震",
+      "upper": "离"
+    },
+    {
+      "id": 17,
+      "lower": "震",
+      "upper": "兑"
+    },
+    {
+      "id": 6,
+      "lower": "坎",
+      "upper": "乾"
+    },
+    {
+      "id": 40,
+      "lower": "坎",
+      "upper": "震"
+    },
+    {
+      "id": 29,
+      "lower": "坎",
+      "upper": "坎"
+    },
+    {
+      "id": 4,
+      "lower": "坎",
+      "upper": "艮"
+    },
+    {
+      "id": 7,
+      "lower": "坎",
+      "upper": "坤"
+    },
+    {
+      "id": 59,
+      "lower": "坎",
+      "upper": "巽"
+    },
+    {
+      "id": 64,
+      "lower": "坎",
+      "upper": "离"
+    },
+    {
+      "id": 47,
+      "lower": "坎",
+      "upper": "兑"
+    },
+    {
+      "id": 33,
+      "lower": "艮",
+      "upper": "乾"
+    },
+    {
+      "id": 62,
+      "lower": "艮",
+      "upper": "震"
+    },
+    {
+      "id": 39,
+      "lower": "艮",
+      "upper": "坎"
+    },
+    {
+      "id": 52,
+      "lower": "艮",
+      "upper": "艮"
+    },
+    {
+      "id": 15,
+      "lower": "艮",
+      "upper": "坤"
+    },
+    {
+      "id": 53,
+      "lower": "艮",
+      "upper": "巽"
+    },
+    {
+      "id": 56,
+      "lower": "艮",
+      "upper": "离"
+    },
+    {
+      "id": 31,
+      "lower": "艮",
+      "upper": "兑"
+    },
+    {
+      "id": 12,
+      "lower": "坤",
+      "upper": "乾"
+    },
+    {
+      "id": 16,
+      "lower": "坤",
+      "upper": "震"
+    },
+    {
+      "id": 8,
+      "lower": "坤",
+      "upper": "坎"
+    },
+    {
+      "id": 23,
+      "lower": "坤",
+      "upper": "艮"
+    },
+    {
+      "id": 2,
+      "lower": "坤",
+      "upper": "坤"
+    },
+    {
+      "id": 20,
+      "lower": "坤",
+      "upper": "巽"
+    },
+    {
+      "id": 35,
+      "lower": "坤",
+      "upper": "离"
+    },
+    {
+      "id": 45,
+      "lower": "坤",
+      "upper": "兑"
+    },
+    {
+      "id": 44,
+      "lower": "巽",
+      "upper": "乾"
+    },
+    {
+      "id": 32,
+      "lower": "巽",
+      "upper": "震"
+    },
+    {
+      "id": 48,
+      "lower": "巽",
+      "upper": "坎"
+    },
+    {
+      "id": 18,
+      "lower": "巽",
+      "upper": "艮"
+    },
+    {
+      "id": 46,
+      "lower": "巽",
+      "upper": "坤"
+    },
+    {
+      "id": 57,
+      "lower": "巽",
+      "upper": "巽"
+    },
+    {
+      "id": 50,
+      "lower": "巽",
+      "upper": "离"
+    },
+    {
+      "id": 28,
+      "lower": "巽",
+      "upper": "兑"
+    },
+    {
+      "id": 13,
+      "lower": "离",
+      "upper": "乾"
+    },
+    {
+      "id": 55,
+      "lower": "离",
+      "upper": "震"
+    },
+    {
+      "id": 63,
+      "lower": "离",
+      "upper": "坎"
+    },
+    {
+      "id": 22,
+      "lower": "离",
+      "upper": "艮"
+    },
+    {
+      "id": 36,
+      "lower": "离",
+      "upper": "坤"
+    },
+    {
+      "id": 37,
+      "lower": "离",
+      "upper": "巽"
+    },
+    {
+      "id": 30,
+      "lower": "离",
+      "upper": "离"
+    },
+    {
+      "id": 49,
+      "lower": "离",
+      "upper": "兑"
+    },
+    {
+      "id": 10,
+      "lower": "兑",
+      "upper": "乾"
+    },
+    {
+      "id": 54,
+      "lower": "兑",
+      "upper": "震"
+    },
+    {
+      "id": 60,
+      "lower": "兑",
+      "upper": "坎"
+    },
+    {
+      "id": 41,
+      "lower": "兑",
+      "upper": "艮"
+    },
+    {
+      "id": 19,
+      "lower": "兑",
+      "upper": "坤"
+    },
+    {
+      "id": 61,
+      "lower": "兑",
+      "upper": "巽"
+    },
+    {
+      "id": 38,
+      "lower": "兑",
+      "upper": "离"
+    },
+    {
+      "id": 58,
+      "lower": "兑",
+      "upper": "兑"
+    }
+  ]
+}

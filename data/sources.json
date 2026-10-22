@@ -1,0 +1,32 @@
+{
+  "id": "taoism-sdk@1.0.11",
+  "url": "https://registry.npmjs.org/taoism-sdk/-/taoism-sdk-1.0.11.tgz",
+  "registry": "https://registry.npmjs.org/taoism-sdk/1.0.11",
+  "integrity": "sha512-r26KyLjMtE7iUkSaoVriLf78sbTkM4kzxBx32qx3yx5oT7NelbILWZ4YhOi7V6NxVAuwQQ5Hf1yyW4+EagMHow==",
+  "retrievedAt": "2026-10-22",
+  "file": "sources/taoism-sdk-1.0.11-gua64.json",
+  "sha256": "b0ec0c2fa0d07328a8df071dad7202a016ea279461609eb1a67c86bba55455df",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2023 elfpuck",
+  "status": "Provisional fallback; Wikisource fixed revisions have NOT been retrieved or compared.",
+  "transformations": [
+    "Only guaci and yaoci are extracted; tuan and xiang are excluded.",
+    "Line titles and separators split into fields. Body corrections are explicitly listed in corrections.json; all other characters and punctuation retained.",
+    "Use-nine and use-six are stored separately.",
+    "Names use simplified display labels and traditional aliases; source bodies remain unchanged.",
+    "Pinyin corrections: 比 bǐ, 解 xiè."
+  ],
+  "preferredSource": "https://zh.wikisource.org/wiki/周易",
+  "preferredSourceBlocker": "HTTP CONNECT 403 under current environment network policy",
+  "crossReference": {
+    "id": "c_yijing@0.0.6",
+    "url": "https://registry.npmjs.org/c_yijing/-/c_yijing-0.0.6.tgz",
+    "integrity": "sha512-H1i//Ft8+mJnlwcCn3fx1DhnjD7018qH7uozGbx3S9oUlnujLmHuZP+kSTXSyhxQ+NSpTmASxUNmON40gUq4Rg==",
+    "registry": "https://registry.npmjs.org/c_yijing/0.0.6",
+    "retrievedAt": "2026-10-22",
+    "licenseDeclared": "ISC",
+    "usage": "Public-domain classical text excerpts only; no program code or modern commentary copied.",
+    "limitations": "Contains its own transcription errors; not an authoritative edition. Used for documented obvious-error corrections only."
+  },
+  "corrections": "corrections.json"
+}

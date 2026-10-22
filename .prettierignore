@@ -1,0 +1,7 @@
+node_modules/
+dist/
+data/
+docs/PRD.md
+docs/screenshots/
+playwright-report/
+test-results/
