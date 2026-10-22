@@ -1,0 +1,44 @@
+{
+  "upstream": "https://github.com/lxgw/LxgwWenKai",
+  "version": "v1.530",
+  "license": "OFL-1.1",
+  "family": "Yixue WenKai",
+  "files": [
+    {
+      "file": "yixue-wenkai-regular-core.woff2",
+      "weight": 400,
+      "characters": 2247,
+      "bytes": 401116,
+      "sha256": "517cd9ee5758c39e7bd3cb56e0bcb22637fce1ee3e7798287f787689207fc721",
+      "source": "https://github.com/lxgw/LxgwWenKai/releases/download/v1.530/LXGWWenKai-Regular.ttf",
+      "sourceSha256": "2d73eea94ad808999d90c0000c239a84a33b09d4bc6ab6c5b8bbf1eda8a7fc8b"
+    },
+    {
+      "file": "yixue-wenkai-regular-extension.woff2",
+      "weight": 400,
+      "characters": 44679,
+      "bytes": 8831544,
+      "sha256": "b4dd1317da43666cfc4c94239e83ac65e2833c817030c55a0dbcbefb3c982dd3",
+      "source": "https://github.com/lxgw/LxgwWenKai/releases/download/v1.530/LXGWWenKai-Regular.ttf",
+      "sourceSha256": "2d73eea94ad808999d90c0000c239a84a33b09d4bc6ab6c5b8bbf1eda8a7fc8b"
+    },
+    {
+      "file": "yixue-wenkai-medium-core.woff2",
+      "weight": 500,
+      "characters": 2247,
+      "bytes": 406196,
+      "sha256": "6502a343b110aab1d7e0937eea6ab63931de1adebd3c6a73c89ee429e87aaa6f",
+      "source": "https://github.com/lxgw/LxgwWenKai/releases/download/v1.530/LXGWWenKai-Medium.ttf",
+      "sourceSha256": "f4b8a34d1f838fe411540cb7c97b1c384ac9738a876c4104500bc42508b2312a"
+    },
+    {
+      "file": "yixue-wenkai-medium-extension.woff2",
+      "weight": 500,
+      "characters": 44679,
+      "bytes": 9724240,
+      "sha256": "3b16894ec69823f9aaa289b8d2d96c01dbb6737bf928ead7dc3b82f16005d485",
+      "source": "https://github.com/lxgw/LxgwWenKai/releases/download/v1.530/LXGWWenKai-Medium.ttf",
+      "sourceSha256": "f4b8a34d1f838fe411540cb7c97b1c384ac9738a876c4104500bc42508b2312a"
+    }
+  ]
+}

@@ -1183,6 +1183,27 @@ function About() {
           </p>
         </section>
         <section>
+          <h2>字里行间的文楷</h2>
+          <p>
+            本站使用霞鹜文楷，字形来自 LXGW WenKai v1.530，采用 SIL Open Font
+            License 1.1 开源许可。感谢字体作者与原始 Klee One 项目的贡献。
+          </p>
+          <div className="source-links">
+            <a
+              href="https://github.com/lxgw/LxgwWenkai"
+              target="_blank"
+              rel="noreferrer"
+            >
+              霞鹜文楷项目
+              <ExternalLink size={14} />
+            </a>
+            <a href="/fonts/OFL.txt" target="_blank" rel="noreferrer">
+              字体开源许可
+              <ExternalLink size={14} />
+            </a>
+          </div>
+        </section>
+        <section>
           <h2>从容开始</h2>
           <p>
             第一轮不必记住所有名词。认识阴阳爻，分清上下卦，将一句爻辞放回正确的位置，就已经迈出重要的一步。

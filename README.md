@@ -34,6 +34,10 @@ npm run test:e2e    # Chromium 真实浏览器交互测试，自动启动生产�
 
 ## 内容与来源
 
+全站字体采用 [霞鹜文楷 LXGW WenKai](https://github.com/lxgw/LxgwWenkai) v1.530，使用 Regular（400）与 Medium（500）字重。字体以本地 WOFF2 随站部署，正文与标题无需访问第三方字体 CDN。保留完整字库，按当前站点常用字符和其余字符分片，由 `unicode-range` 按需加载；加载期间使用 `font-display: swap` 显示备用字体。
+
+字体许可及来源校验记录见 `public/fonts/OFL.txt`、`public/fonts/manifest.json`。为区分网页子集与上游字体，网页字体的内部名称为 `Yixue WenKai`，没有重新设计字形。已生成的文件直接参与 Vercel 构建；如需重新优化常用分片，使用 Python 的 `fonttools==4.61.1`、`brotli==1.2.0` 执行 `python3 scripts/prepare-fonts.py`，无需改动部署环境。
+
 - `src/content.ts`：课程、练习、八卦与检索。
 - `data/guides.txt`：64 篇原创导读正文与释词。
 - `data/hexagrams.json`：部署用结构化卦数据，六爻从下到上存储。

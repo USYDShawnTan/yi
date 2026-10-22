@@ -1,6 +1,7 @@
 @import "tailwindcss";
+@import "./fonts.css";
 :root {
-  font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  font-family: var(--wenkai);
   color: #2d3832;
   background: #f7f6f0;
   font-synthesis: none;
@@ -11,8 +12,9 @@
   --rust: #a34d36;
   --line: #dedfd4;
   --green-soft: #eef0e7;
-  --serif: "Noto Serif CJK SC", "Songti SC", "STSong", "SimSun", serif;
-  --mono: ui-monospace, SFMono-Regular, Consolas, monospace;
+  --wenkai: "Yixue WenKai", "LXGW WenKai", "KaiTi", "STKaiti", serif;
+  --serif: var(--wenkai);
+  --mono: var(--wenkai);
 }
 * {
   box-sizing: border-box;
@@ -815,7 +817,7 @@ h2 {
   align-items: center;
 }
 .footer-brand span {
-  font-family: sans-serif;
+  font-family: var(--wenkai);
   font-size: 11px;
   color: #8a907e;
   letter-spacing: 0.6px;
@@ -1295,7 +1297,7 @@ h2 {
 }
 .reading-pagination small {
   display: block;
-  font: 10px sans-serif;
+  font: 10px var(--wenkai);
   color: var(--muted);
   margin-bottom: 8px;
 }
