@@ -46,12 +46,14 @@ import {
   SectionHeading,
 } from "./components";
 import { useProgress } from "./progress";
+import { usePageMotion } from "./usePageMotion";
 import type { Question } from "./types";
 import corrections from "../data/corrections.json";
 function App() {
   const location = useLocation();
   const [menu, setMenu] = useState(false);
   const main = useRef<HTMLElement>(null);
+  usePageMotion(main, location.pathname);
   const { notice, progress } = useProgress();
   useEffect(() => {
     setMenu(false);
